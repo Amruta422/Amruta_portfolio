@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Academia Screenshot Placeholder</title>
+  <desc id="desc">Placeholder image for the Academia app.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d35f24"/>
+      <stop offset="100%" stop-color="#e79a4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="70" y="85" width="1060" height="505" rx="24" fill="#ffffff" fill-opacity="0.93"/>
+  <rect x="105" y="130" width="430" height="26" rx="13" fill="#1d7a8c" fill-opacity="0.2"/>
+  <rect x="105" y="178" width="990" height="92" rx="14" fill="#f5ecdf"/>
+  <rect x="105" y="287" width="470" height="258" rx="14" fill="#f5ecdf"/>
+  <rect x="625" y="287" width="470" height="122" rx="14" fill="#f5ecdf"/>
+  <rect x="625" y="423" width="470" height="122" rx="14" fill="#f5ecdf"/>
+  <text x="105" y="96" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Academia</text>
+</svg>
