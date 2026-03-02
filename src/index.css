@@ -422,7 +422,7 @@ p {
   width: clamp(124px, 16vw, 178px);
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 24px;
+  border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.72);
   box-shadow: 0 24px 44px rgba(10, 30, 60, 0.24);
   transition: transform 220ms ease, box-shadow 220ms ease;
