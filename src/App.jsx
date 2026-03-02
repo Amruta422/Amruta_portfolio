@@ -4,7 +4,7 @@ import projectParadox from "../assets/project-paradox.png";
 import academia from "../assets/academia.png";
 import faceAttendance from "../assets/face-attendance.png";
 import milkDairy from "../assets/milk-dairy.png";
-import resumePdf from "../assets/resume.pdf";
+
 
 const navItems = [
   { id: "about", label: "About" },
@@ -288,14 +288,14 @@ export default function App() {
                 {item.label}
               </a>
             ))}
-            <a
-              className="nav-resume"
-              href={resumePdf}
-              target="_blank"
-              rel="noreferrer"
+          <a
+           className="nav-resume"
+          href="/Amruta_portfolio/resume.pdf"
+          target="_blank"
+           rel="noreferrer"
             >
-              Resume
-            </a>
+          Resume
+          </a>
             <button
               className="theme-toggle"
               type="button"
@@ -558,14 +558,14 @@ export default function App() {
         <p>&copy; {year} All rights reserved.</p>
       </footer>
 
-      <a
-        className="resume-float"
-        href={resumePdf}
-        download="Amruta_Yadav_Resume.pdf"
-        aria-label="Download resume"
+     <a
+      className="resume-float"
+      href="/Amruta_portfolio/resume.pdf"
+      download="Amruta_Yadav_Resume.pdf"
+      aria-label="Download resume"
       >
-        Download Resume
-      </a>
+       Download Resume
+     </a>
     </div>
   );
 }
