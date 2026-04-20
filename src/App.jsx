@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import profilePhoto from "../assets/profile.jpg";
-import leadSnipper from "../assets/lead-snipper.svg";
-import weatherBoat from "../assets/weather-boat.svg";
+import projectParadox from "../assets/project-paradox.png";
+import leadSnipper from "../assets/lead-snipper-project.svg";
+import faceAttendance from "../assets/face-attendance.png";
+import weatherBoat from "../assets/weather-delay-project.svg";
 
 
 const navItems = [
@@ -32,6 +34,16 @@ const skills = [
 
 const projects = [
   {
+    title: "Project Paradox",
+    meta: "Crop Recommendation System (React, Django, MySQL)",
+    description:
+      "Developed a crop recommendation system achieving ~85% prediction accuracy using machine learning models integrated with Django REST APIs.",
+    tags: ["React", "Django", "MySQL"],
+    repo: "https://github.com/Amruta422/project_paradox",
+    image: projectParadox,
+    alt: "Screenshot of Project Paradox application",
+  },
+  {
     title: "Lead Snipper",
     meta: "Lead Management Web App",
     description:
@@ -40,6 +52,16 @@ const projects = [
     repo: "https://github.com/Amruta422",
     image: leadSnipper,
     alt: "Illustrated preview for Lead Snipper project",
+  },
+  {
+    title: "Face Attendance System",
+    meta: "Python, OpenCV",
+    description:
+      "Implemented a real-time face detection and recognition workflow for automated attendance.",
+    tags: ["Python", "OpenCV"],
+    repo: "https://github.com/Amruta422/face-attendenc",
+    image: faceAttendance,
+    alt: "Screenshot of Face Attendance System",
   },
   {
     title: "Weather Delay",
