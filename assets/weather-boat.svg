@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Weather Boat placeholder</title>
+  <desc id="desc">Decorative placeholder artwork for the Weather Boat project card.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#sky)" />
+  <circle cx="948" cy="152" r="64" fill="#fde68a" opacity="0.95" />
+  <g fill="#f8fafc" opacity="0.9">
+    <circle cx="212" cy="164" r="34" />
+    <circle cx="248" cy="152" r="42" />
+    <circle cx="292" cy="166" r="32" />
+    <rect x="212" y="166" width="112" height="34" rx="17" />
+  </g>
+  <rect x="0" y="438" width="1200" height="237" fill="url(#sea)" />
+  <path d="M0 510 Q75 488 150 510 T300 510 T450 510 T600 510 T750 510 T900 510 T1050 510 T1200 510 V675 H0 Z" fill="#38bdf8" opacity="0.28" />
+  <path d="M430 400 L566 400 L638 472 L368 472 Z" fill="#1e293b" />
+  <rect x="490" y="288" width="20" height="112" fill="#f8fafc" />
+  <path d="M510 294 L510 388 L616 346 Z" fill="#f8fafc" />
+  <text x="84" y="126" font-family="Arial, sans-serif" font-size="60" font-weight="700" fill="#082f49">Weather Boat</text>
+  <text x="84" y="182" font-family="Arial, sans-serif" font-size="28" fill="#0f172a">Forecast dashboard for quick weather insights</text>
+</svg>

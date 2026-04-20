@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import profilePhoto from "../assets/profile.jpg";
 import projectParadox from "../assets/project-paradox.png";
-import academia from "../assets/academia.png";
+import leadSnipper from "../assets/lead-snipper.svg";
 import faceAttendance from "../assets/face-attendance.png";
-import milkDairy from "../assets/milk-dairy.png";
+import weatherBoat from "../assets/weather-boat.svg";
 
 
 const navItems = [
@@ -44,14 +44,14 @@ const projects = [
     alt: "Screenshot of Project Paradox application",
   },
   {
-    title: "Academia",
-    meta: "Mini E-learning Platform (Django, HTML, CSS)",
+    title: "Lead Snipper",
+    meta: "Lead Management Web App",
     description:
-      "Developed an e-learning app with book listings, study-material sharing, and group collaboration features.",
-    tags: ["Django", "HTML/CSS"],
-    repo: "https://github.com/Amruta422/Academia",
-    image: academia,
-    alt: "Screenshot of Academia application",
+      "Built a lead tracking interface to organize client details, monitor follow-ups, and streamline day-to-day sales workflow updates.",
+    tags: ["React", "JavaScript", "UI/UX"],
+    repo: "https://github.com/Amruta422",
+    image: leadSnipper,
+    alt: "Placeholder preview for Lead Snipper project",
   },
   {
     title: "Face Attendance System",
@@ -64,14 +64,14 @@ const projects = [
     alt: "Screenshot of Face Attendance System",
   },
   {
-    title: "Milk Dairy Application",
-    meta: "Web Application",
+    title: "Weather Boat",
+    meta: "Weather Forecast Web App",
     description:
-      "Built a dairy management app to organize milk collection details, customer records, and daily operational entries.",
-    tags: ["HTML/CSS", "JavaScript", "Database"],
-    repo: "https://github.com/Amruta422/milk-dairy",
-    image: milkDairy,
-    alt: "Screenshot of Milk Dairy Application",
+      "Created a weather dashboard that surfaces live conditions and forecast insights with a simple, responsive interface for quick daily planning.",
+    tags: ["HTML/CSS", "JavaScript", "API"],
+    repo: "https://github.com/Amruta422",
+    image: weatherBoat,
+    alt: "Placeholder preview for Weather Boat project",
   },
 ];
 
