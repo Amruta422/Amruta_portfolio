@@ -1,26 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Lead Snipper placeholder</title>
-  <desc id="desc">Decorative placeholder artwork for the Lead Snipper project card.</desc>
+  <title id="title">Lead Snipper project preview</title>
+  <desc id="desc">Illustrated dashboard preview showing lead cards, conversion metrics, and follow-up activity for the Lead Snipper project.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b1220" />
-      <stop offset="100%" stop-color="#123b6b" />
+    <linearGradient id="lead-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091224" />
+      <stop offset="55%" stop-color="#0f2748" />
+      <stop offset="100%" stop-color="#13366f" />
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.45" />
+    <linearGradient id="lead-panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b162b" />
+      <stop offset="100%" stop-color="#112845" />
+    </linearGradient>
+    <linearGradient id="lead-card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="675" rx="36" fill="url(#bg)" />
-  <rect x="72" y="72" width="1056" height="531" rx="28" fill="#08111f" stroke="#38bdf8" stroke-opacity="0.35" />
-  <rect x="112" y="124" width="420" height="28" rx="14" fill="#1d4ed8" opacity="0.8" />
-  <rect x="112" y="178" width="286" height="16" rx="8" fill="#93c5fd" opacity="0.9" />
-  <rect x="112" y="214" width="352" height="16" rx="8" fill="#93c5fd" opacity="0.55" />
-  <rect x="112" y="278" width="236" height="180" rx="24" fill="url(#panel)" />
-  <rect x="376" y="278" width="318" height="180" rx="24" fill="#0f1c2f" stroke="#60a5fa" stroke-opacity="0.3" />
-  <rect x="722" y="278" width="294" height="180" rx="24" fill="#0f1c2f" stroke="#60a5fa" stroke-opacity="0.3" />
-  <rect x="112" y="494" width="904" height="18" rx="9" fill="#1e3a5f" />
-  <rect x="112" y="530" width="548" height="18" rx="9" fill="#1e3a5f" opacity="0.72" />
-  <text x="112" y="402" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Lead Snipper</text>
-  <text x="112" y="568" font-family="Arial, sans-serif" font-size="28" fill="#cbd5e1">Lead management and follow-up dashboard</text>
+  <rect width="1200" height="675" rx="40" fill="url(#lead-bg)" />
+  <circle cx="1024" cy="118" r="138" fill="#38bdf8" opacity="0.08" />
+  <circle cx="162" cy="600" r="152" fill="#2563eb" opacity="0.08" />
+  <rect x="54" y="48" width="1092" height="579" rx="32" fill="url(#lead-panel)" stroke="#3b82f6" stroke-opacity="0.24" />
+  <rect x="86" y="86" width="1028" height="72" rx="24" fill="#0a1324" stroke="#60a5fa" stroke-opacity="0.2" />
+  <circle cx="126" cy="122" r="10" fill="#38bdf8" />
+  <circle cx="158" cy="122" r="10" fill="#60a5fa" opacity="0.75" />
+  <circle cx="190" cy="122" r="10" fill="#93c5fd" opacity="0.55" />
+  <rect x="238" y="108" width="220" height="28" rx="14" fill="#17325c" />
+  <rect x="846" y="104" width="224" height="36" rx="18" fill="#183b74" />
+  <rect x="110" y="194" width="312" height="246" rx="28" fill="url(#lead-card)" />
+  <text x="142" y="256" font-family="Arial, sans-serif" font-size="28" fill="#dbeafe" font-weight="700">TODAY'S LEADS</text>
+  <text x="142" y="344" font-family="Arial, sans-serif" font-size="88" fill="#ffffff" font-weight="700">128</text>
+  <text x="142" y="388" font-family="Arial, sans-serif" font-size="28" fill="#dbeafe">+18% from last week</text>
+  <rect x="456" y="194" width="288" height="112" rx="24" fill="#0b162a" stroke="#60a5fa" stroke-opacity="0.25" />
+  <text x="488" y="236" font-family="Arial, sans-serif" font-size="24" fill="#93c5fd" font-weight="700">Qualified</text>
+  <text x="488" y="282" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" font-weight="700">74</text>
+  <rect x="776" y="194" width="288" height="112" rx="24" fill="#0b162a" stroke="#60a5fa" stroke-opacity="0.25" />
+  <text x="808" y="236" font-family="Arial, sans-serif" font-size="24" fill="#93c5fd" font-weight="700">Meetings</text>
+  <text x="808" y="282" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" font-weight="700">26</text>
+  <rect x="456" y="328" width="608" height="210" rx="28" fill="#0a1324" stroke="#60a5fa" stroke-opacity="0.2" />
+  <text x="488" y="372" font-family="Arial, sans-serif" font-size="26" fill="#e2e8f0" font-weight="700">Follow-up Pipeline</text>
+  <rect x="488" y="406" width="544" height="18" rx="9" fill="#17325c" />
+  <rect x="488" y="406" width="406" height="18" rx="9" fill="#38bdf8" />
+  <rect x="488" y="448" width="544" height="18" rx="9" fill="#17325c" />
+  <rect x="488" y="448" width="298" height="18" rx="9" fill="#60a5fa" />
+  <rect x="488" y="490" width="544" height="18" rx="9" fill="#17325c" />
+  <rect x="488" y="490" width="214" height="18" rx="9" fill="#93c5fd" />
+  <rect x="110" y="470" width="312" height="68" rx="24" fill="#0a1324" stroke="#60a5fa" stroke-opacity="0.2" />
+  <text x="142" y="513" font-family="Arial, sans-serif" font-size="30" fill="#ffffff" font-weight="700">Lead Snipper</text>
+  <text x="86" y="592" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">CRM-inspired dashboard preview with sales tracking widgets</text>
 </svg>

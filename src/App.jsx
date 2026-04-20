@@ -1,8 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import profilePhoto from "../assets/profile.jpg";
-import projectParadox from "../assets/project-paradox.png";
 import leadSnipper from "../assets/lead-snipper.svg";
-import faceAttendance from "../assets/face-attendance.png";
 import weatherBoat from "../assets/weather-boat.svg";
 
 
@@ -34,16 +32,6 @@ const skills = [
 
 const projects = [
   {
-    title: "Project Paradox",
-    meta: "Crop Recommendation System (React, Django, MySQL)",
-    description:
-      "Developed a crop recommendation system achieving ~85% prediction accuracy using machine learning models integrated with Django REST APIs.",
-    tags: ["React", "Django", "MySQL"],
-    repo: "https://github.com/Amruta422/project_paradox",
-    image: projectParadox,
-    alt: "Screenshot of Project Paradox application",
-  },
-  {
     title: "Lead Snipper",
     meta: "Lead Management Web App",
     description:
@@ -51,27 +39,17 @@ const projects = [
     tags: ["React", "JavaScript", "UI/UX"],
     repo: "https://github.com/Amruta422",
     image: leadSnipper,
-    alt: "Placeholder preview for Lead Snipper project",
+    alt: "Illustrated preview for Lead Snipper project",
   },
   {
-    title: "Face Attendance System",
-    meta: "Python, OpenCV",
-    description:
-      "Implemented a real-time face detection and recognition workflow for automated attendance.",
-    tags: ["Python", "OpenCV"],
-    repo: "https://github.com/Amruta422/face-attendenc",
-    image: faceAttendance,
-    alt: "Screenshot of Face Attendance System",
-  },
-  {
-    title: "Weather Boat",
+    title: "Weather Delay",
     meta: "Weather Forecast Web App",
     description:
       "Created a weather dashboard that surfaces live conditions and forecast insights with a simple, responsive interface for quick daily planning.",
     tags: ["HTML/CSS", "JavaScript", "API"],
     repo: "https://github.com/Amruta422",
     image: weatherBoat,
-    alt: "Placeholder preview for Weather Boat project",
+    alt: "Illustrated preview for Weather Delay project",
   },
 ];
 

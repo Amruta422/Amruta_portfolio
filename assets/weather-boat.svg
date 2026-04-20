@@ -1,29 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">Weather Boat placeholder</title>
-  <desc id="desc">Decorative placeholder artwork for the Weather Boat project card.</desc>
+  <title id="title">Weather Delay project preview</title>
+  <desc id="desc">Illustrated weather app preview with forecast cards, rain probability, and a coastal scene for the Weather Delay project.</desc>
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="weather-sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#7dd3fc" />
-      <stop offset="100%" stop-color="#0f172a" />
+      <stop offset="52%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1e3a8a" />
     </linearGradient>
-    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="weather-water" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0f766e" />
-      <stop offset="100%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="weather-panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff" stop-opacity="0.96" />
+      <stop offset="100%" stop-color="#dbeafe" stop-opacity="0.84" />
     </linearGradient>
   </defs>
-  <rect width="1200" height="675" rx="36" fill="url(#sky)" />
-  <circle cx="948" cy="152" r="64" fill="#fde68a" opacity="0.95" />
-  <g fill="#f8fafc" opacity="0.9">
-    <circle cx="212" cy="164" r="34" />
-    <circle cx="248" cy="152" r="42" />
-    <circle cx="292" cy="166" r="32" />
-    <rect x="212" y="166" width="112" height="34" rx="17" />
+  <rect width="1200" height="675" rx="40" fill="url(#weather-sky)" />
+  <circle cx="958" cy="122" r="72" fill="#fde68a" opacity="0.96" />
+  <g fill="#f8fafc" opacity="0.95">
+    <circle cx="172" cy="132" r="30" />
+    <circle cx="206" cy="120" r="40" />
+    <circle cx="246" cy="136" r="28" />
+    <rect x="168" y="136" width="114" height="30" rx="15" />
   </g>
-  <rect x="0" y="438" width="1200" height="237" fill="url(#sea)" />
-  <path d="M0 510 Q75 488 150 510 T300 510 T450 510 T600 510 T750 510 T900 510 T1050 510 T1200 510 V675 H0 Z" fill="#38bdf8" opacity="0.28" />
-  <path d="M430 400 L566 400 L638 472 L368 472 Z" fill="#1e293b" />
-  <rect x="490" y="288" width="20" height="112" fill="#f8fafc" />
-  <path d="M510 294 L510 388 L616 346 Z" fill="#f8fafc" />
-  <text x="84" y="126" font-family="Arial, sans-serif" font-size="60" font-weight="700" fill="#082f49">Weather Boat</text>
-  <text x="84" y="182" font-family="Arial, sans-serif" font-size="28" fill="#0f172a">Forecast dashboard for quick weather insights</text>
+  <rect x="0" y="430" width="1200" height="245" fill="url(#weather-water)" />
+  <path d="M0 500 Q85 478 170 500 T340 500 T510 500 T680 500 T850 500 T1020 500 T1200 500 V675 H0 Z" fill="#38bdf8" opacity="0.24" />
+  <path d="M0 560 Q85 538 170 560 T340 560 T510 560 T680 560 T850 560 T1020 560 T1200 560 V675 H0 Z" fill="#7dd3fc" opacity="0.18" />
+  <rect x="84" y="72" width="674" height="288" rx="30" fill="url(#weather-panel)" />
+  <text x="126" y="134" font-family="Arial, sans-serif" font-size="62" font-weight="700" fill="#0f172a">Weather Delay</text>
+  <text x="126" y="178" font-family="Arial, sans-serif" font-size="28" fill="#334155">Live forecast dashboard for quick planning</text>
+  <text x="126" y="248" font-family="Arial, sans-serif" font-size="86" font-weight="700" fill="#0f172a">29°</text>
+  <text x="256" y="248" font-family="Arial, sans-serif" font-size="28" fill="#475569">Partly cloudy</text>
+  <rect x="126" y="276" width="240" height="16" rx="8" fill="#93c5fd" />
+  <rect x="126" y="308" width="188" height="16" rx="8" fill="#bfdbfe" />
+  <rect x="788" y="86" width="328" height="190" rx="28" fill="#0f172a" fill-opacity="0.3" stroke="#dbeafe" stroke-opacity="0.35" />
+  <text x="824" y="136" font-family="Arial, sans-serif" font-size="26" fill="#eff6ff" font-weight="700">Rain Chance</text>
+  <text x="824" y="214" font-family="Arial, sans-serif" font-size="72" fill="#ffffff" font-weight="700">42%</text>
+  <rect x="824" y="230" width="220" height="16" rx="8" fill="#1e40af" />
+  <rect x="824" y="230" width="122" height="16" rx="8" fill="#7dd3fc" />
+  <rect x="788" y="296" width="328" height="128" rx="28" fill="#0f172a" fill-opacity="0.24" stroke="#dbeafe" stroke-opacity="0.35" />
+  <text x="824" y="346" font-family="Arial, sans-serif" font-size="24" fill="#eff6ff" font-weight="700">Next 3 hours</text>
+  <rect x="824" y="368" width="68" height="28" rx="14" fill="#dbeafe" />
+  <rect x="912" y="354" width="68" height="42" rx="20" fill="#bfdbfe" />
+  <rect x="1000" y="340" width="68" height="56" rx="22" fill="#93c5fd" />
+  <path d="M442 390 L584 390 L652 462 L374 462 Z" fill="#1e293b" />
+  <rect x="500" y="280" width="18" height="110" fill="#f8fafc" />
+  <path d="M518 284 L518 374 L618 330 Z" fill="#f8fafc" />
+  <text x="80" y="618" font-family="Arial, sans-serif" font-size="24" fill="#e0f2fe">Forecast illustration with dashboard cards and coastal weather scene</text>
 </svg>
