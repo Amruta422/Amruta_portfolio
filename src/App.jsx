@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import profilePhoto from "../assets/profile.jpg";
 import projectParadox from "../assets/project-paradox.png";
-import leadSnipper from "../assets/lead-snipper-project.svg";
+import academia from "../assets/academia.png";
 import faceAttendance from "../assets/face-attendance.png";
-import weatherBoat from "../assets/weather-delay-project.svg";
+import milkDairy from "../assets/milk-dairy.png";
+import ecommerceUiUx from "../assets/ecommerce-uiux.svg";
 
 
 const navItems = [
@@ -44,14 +45,14 @@ const projects = [
     alt: "Screenshot of Project Paradox application",
   },
   {
-    title: "Lead Snipper",
-    meta: "Lead Management Web App",
+    title: "Academia",
+    meta: "Mini E-learning Platform (Django, HTML, CSS)",
     description:
-      "Built a lead tracking interface to organize client details, monitor follow-ups, and streamline day-to-day sales workflow updates.",
-    tags: ["React", "JavaScript", "UI/UX"],
-    repo: "https://github.com/Amruta422",
-    image: leadSnipper,
-    alt: "Illustrated preview for Lead Snipper project",
+      "Developed an e-learning app with book listings, study-material sharing, and group collaboration features.",
+    tags: ["Django", "HTML/CSS"],
+    repo: "https://github.com/Amruta422/Academia",
+    image: academia,
+    alt: "Screenshot of Academia application",
   },
   {
     title: "Face Attendance System",
@@ -64,14 +65,24 @@ const projects = [
     alt: "Screenshot of Face Attendance System",
   },
   {
-    title: "Weather Delay",
-    meta: "Weather Forecast Web App",
+    title: "Milk Dairy Application",
+    meta: "Web Application",
     description:
-      "Created a weather dashboard that surfaces live conditions and forecast insights with a simple, responsive interface for quick daily planning.",
-    tags: ["HTML/CSS", "JavaScript", "API"],
+      "Built a dairy management app to organize milk collection details, customer records, and daily operational entries.",
+    tags: ["HTML/CSS", "JavaScript", "Database"],
+    repo: "https://github.com/Amruta422/milk-dairy",
+    image: milkDairy,
+    alt: "Screenshot of Milk Dairy Application",
+  },
+  {
+    title: "E-commerce UI/UX Project",
+    meta: "E-commerce Website Design",
+    description:
+      "Designed a clean e-commerce website experience with user-friendly product discovery, modern layouts, and conversion-focused shopping flows.",
+    tags: ["UI/UX", "Figma", "E-commerce"],
     repo: "https://github.com/Amruta422",
-    image: weatherBoat,
-    alt: "Illustrated preview for Weather Delay project",
+    image: ecommerceUiUx,
+    alt: "Illustrated preview of e-commerce UI/UX project",
   },
 ];
 

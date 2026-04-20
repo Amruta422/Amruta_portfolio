@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">E-commerce UI/UX project preview</title>
+  <desc id="desc">Illustrated preview of an e-commerce website design with product cards, navigation, and a shopping cart summary.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="40" fill="url(#bg)" />
+  <rect x="58" y="52" width="1084" height="571" rx="32" fill="#ffffff" stroke="#cbd5e1" />
+  <rect x="92" y="84" width="1016" height="66" rx="22" fill="#eff6ff" />
+  <circle cx="132" cy="117" r="10" fill="#fb7185" />
+  <circle cx="164" cy="117" r="10" fill="#f59e0b" />
+  <circle cx="196" cy="117" r="10" fill="#38bdf8" />
+  <rect x="244" y="102" width="188" height="28" rx="14" fill="#dbeafe" />
+  <rect x="882" y="100" width="188" height="32" rx="16" fill="#0f172a" opacity="0.08" />
+  <rect x="92" y="178" width="454" height="240" rx="30" fill="url(#hero)" />
+  <text x="130" y="248" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">E-commerce</text>
+  <text x="130" y="300" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">UI/UX Design</text>
+  <text x="130" y="350" font-family="Arial, sans-serif" font-size="28" fill="#fff7ed">Product-first shopping experience</text>
+  <rect x="590" y="178" width="214" height="182" rx="24" fill="#f8fafc" stroke="#cbd5e1" />
+  <rect x="620" y="210" width="154" height="82" rx="18" fill="#e2e8f0" />
+  <rect x="620" y="310" width="110" height="18" rx="9" fill="#cbd5e1" />
+  <rect x="620" y="338" width="74" height="18" rx="9" fill="#94a3b8" />
+  <rect x="834" y="178" width="214" height="182" rx="24" fill="#f8fafc" stroke="#cbd5e1" />
+  <rect x="864" y="210" width="154" height="82" rx="18" fill="#e2e8f0" />
+  <rect x="864" y="310" width="110" height="18" rx="9" fill="#cbd5e1" />
+  <rect x="864" y="338" width="74" height="18" rx="9" fill="#94a3b8" />
+  <rect x="92" y="452" width="714" height="128" rx="28" fill="#f8fafc" stroke="#cbd5e1" />
+  <text x="126" y="502" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Featured categories</text>
+  <rect x="126" y="526" width="182" height="18" rx="9" fill="#cbd5e1" />
+  <rect x="336" y="526" width="182" height="18" rx="9" fill="#dbeafe" />
+  <rect x="546" y="526" width="182" height="18" rx="9" fill="#fecdd3" />
+  <rect x="844" y="410" width="264" height="170" rx="28" fill="#0f172a" />
+  <text x="878" y="458" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Cart Summary</text>
+  <rect x="878" y="484" width="196" height="16" rx="8" fill="#334155" />
+  <rect x="878" y="514" width="168" height="16" rx="8" fill="#334155" />
+  <rect x="878" y="542" width="140" height="16" rx="8" fill="#334155" />
+</svg>
