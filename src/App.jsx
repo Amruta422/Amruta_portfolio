@@ -165,6 +165,7 @@ export default function App() {
   const progressRef = useRef(null);
   const [activeSection, setActiveSection] = useState("");
   const [theme, setTheme] = useState(getPreferredTheme);
+  const resumeHref = `${import.meta.env.BASE_URL}resume.pdf`;
 
   const year = useMemo(() => new Date().getFullYear(), []);
 
@@ -290,7 +291,7 @@ export default function App() {
             ))}
           <a
            className="nav-resume"
-          href="/Amruta_portfolio/resume.pdf"
+          href={resumeHref}
           target="_blank"
            rel="noreferrer"
             >
@@ -560,7 +561,7 @@ export default function App() {
 
      <a
       className="resume-float"
-      href="/Amruta_portfolio/resume.pdf"
+      href={resumeHref}
       download="Amruta_Yadav_Resume.pdf"
       aria-label="Download resume"
       >
