@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Project Paradox Screenshot Placeholder</title>
+  <desc id="desc">Placeholder image for the Project Paradox app.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1d7a8c"/>
+      <stop offset="100%" stop-color="#3aa2b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="70" y="85" width="1060" height="505" rx="24" fill="#ffffff" fill-opacity="0.92"/>
+  <rect x="105" y="130" width="320" height="26" rx="13" fill="#d35f24" fill-opacity="0.22"/>
+  <rect x="105" y="180" width="540" height="180" rx="14" fill="#f6ebe0"/>
+  <rect x="675" y="180" width="420" height="82" rx="14" fill="#f6ebe0"/>
+  <rect x="675" y="278" width="420" height="82" rx="14" fill="#f6ebe0"/>
+  <rect x="105" y="390" width="990" height="155" rx="14" fill="#f6ebe0"/>
+  <text x="105" y="96" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Project Paradox</text>
+</svg>
