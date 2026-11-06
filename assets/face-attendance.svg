@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Face Attendance Screenshot Placeholder</title>
+  <desc id="desc">Placeholder image for the Face Attendance System app.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2c2f5b"/>
+      <stop offset="100%" stop-color="#4b58a1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect x="70" y="85" width="1060" height="505" rx="24" fill="#ffffff" fill-opacity="0.93"/>
+  <rect x="105" y="130" width="420" height="26" rx="13" fill="#d35f24" fill-opacity="0.2"/>
+  <circle cx="275" cy="318" r="125" fill="#f5ecdf"/>
+  <circle cx="275" cy="300" r="35" fill="#d9c5ae"/>
+  <rect x="200" y="350" width="150" height="95" rx="45" fill="#d9c5ae"/>
+  <rect x="460" y="190" width="635" height="105" rx="14" fill="#f5ecdf"/>
+  <rect x="460" y="310" width="635" height="105" rx="14" fill="#f5ecdf"/>
+  <rect x="460" y="430" width="635" height="105" rx="14" fill="#f5ecdf"/>
+  <text x="105" y="96" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ffffff">Face Attendance System</text>
+</svg>
